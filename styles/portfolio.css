@@ -98,6 +98,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+.main .section{
+    margin-top: 30px;
+}
 /* About Sections Styles */
 .about{
     border-radius: 10px;
@@ -114,10 +117,33 @@ main{
 .about-info{
     text-align: center;
 }
+.resume-column-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+   
+}
+
 
 .info-title{
     color: #757575;
 }
+/* skills related styles*/
+
+
 #description{
     padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0.06);
+    background: #FFF;
+    border-radius: 5px;
+}
+.resume-container{
+    display: flex;
 }
