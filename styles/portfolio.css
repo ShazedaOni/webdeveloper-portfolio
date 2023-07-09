@@ -94,6 +94,10 @@ nav li{
     margin-bottom: 20px;
 }
 /* main sections styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* About Sections Styles */
 .about{
     border-radius: 10px;
@@ -102,4 +106,15 @@ nav li{
     margin: 130px 0px;
 
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
+.info-title{
+    color: #757575;
 }
